@@ -149,7 +149,7 @@ void Widget::devices_process()
         }
         devices_list->item(index.column())->text().split("\t").first();
 
-        shell->write(QString("scrcpy -s %1\n").arg(devices_list->item(index.column())->text().split("\t").first()).toUtf8());
+        shell->write(QString("scrcpy -s %1 --turn-screen-off\n").arg(devices_list->item(index.column())->text().split("\t").first()).toUtf8());
         widget->hide();
     });
 }
