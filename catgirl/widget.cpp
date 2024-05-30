@@ -28,7 +28,7 @@ Widget::Widget(QWidget *parent)
     connect(timer,&QTimer::timeout,this,&Widget::flush_pixmap);
     connect(shell , &QProcess::readyReadStandardError , this , [=]()
             {
-                QFile *file = new QFile( "catgirl.log");
+                QFile *file = new QFile( "./.cache/catgirl/catgirl.log");
                 if(!file->open(QIODevice::ReadWrite | QIODevice::Append))
                 {
                     return;
