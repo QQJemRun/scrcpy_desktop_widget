@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 12.0.2, 2024-05-30T23:37:15. -->
+<!-- Written by QtCreator 12.0.2, 2024-06-01T15:41:44. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -247,7 +247,7 @@
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/run/github_projects/scrcpy_desktop_widget/build-catgirl-unknown-Release</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/run/github_projects/scrcpy_desktop_widget/build-catgirl-unknown-Debug</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
